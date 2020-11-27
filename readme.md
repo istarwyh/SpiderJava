@@ -13,7 +13,8 @@
 - 底层无外乎就是利用http/https请求+解析html页面,传输层提供的tcp套接字
 - Java也有socket编程，但是java没有封装各种解析http协议的工具，就算有也很原始比如`httpclient`还是其他公司二次封装的不是oracle的jdk自带，这就导致了爬回来的数据有大量解析和筛选工作要做
 - python是因为自带了很多优秀的解析类库而已，程序少编码
-
+### WebDriver和Jsoup都要用
+尤其要动JavaScript操纵`DOM`树的一些知识
 #### 1.1. WebDriver原理
 1. 对于每一条Selenium脚本，一个http请求会被创建并且发送给浏览器的驱动
 2. 浏览器驱动中包含了一个HTTP Server，用来接收这些http请求
