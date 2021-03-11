@@ -1,4 +1,4 @@
-package spiderJava.Utils;
+package Tools;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * webDriver dom元素定位
  */
-public class T7 {
+public class ElementLocationTest {
 
     public static void main(String[] args) {
         WebDriver webDriver = null;
